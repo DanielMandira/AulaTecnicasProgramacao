@@ -21,6 +21,8 @@ public class Exercicio23 {
         Scanner leia = new Scanner(System.in);
         System.out.println("Digite o numero: ");
         num=leia.nextInt();
+        quadrado = (int) Math.pow(num, 2);
+        System.out.println("O Quadrado de "+ num +" é: "+quadrado);
         
     }
     
